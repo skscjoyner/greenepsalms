@@ -1,6 +1,6 @@
 body {
     background: rgb(106, 248, 106);
-    color: #444;
+    margin: 0 50px;
 }
 
 header {
@@ -45,12 +45,13 @@ nav a:hover {
     float: left;
 }
 
-.container1 {
-    padding: 0 0 0 100px;
-}
+/* .container1 {
+    width: 95%;
+    margin: 0 100px 0 100px;
+} */
 
 .container {
-    width: 80%;
+    width: 95%;
     margin: 0;
 }
 
@@ -64,7 +65,7 @@ nav a:hover {
 }
 
 footer {
-    padding: 2rem;
+    padding: 1rem;
     color: #f4f4f4;
 }
 
@@ -73,13 +74,14 @@ footer p {
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     margin: 0 auto;
 }
 
-.grid-2 center {
+.grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
+
