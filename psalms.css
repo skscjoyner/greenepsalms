@@ -1,5 +1,5 @@
 body {
-    background: rgb(106, 248, 106);
+    background: rgb(190, 248, 190);
     margin: 0 50px;
 }
 
@@ -40,6 +40,7 @@ nav a {
 nav a:hover {
     color: #9e9898;
 }
+
 nav a:hover::before {
     width: 100%;
 }
@@ -55,6 +56,12 @@ nav a::before {
     top: 0;
     width: 0%;
     transition: all ease-in-out 250ms;
+}
+
+.person {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 
 .logo {
@@ -87,8 +94,8 @@ footer p {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin: 0 auto;
 }
 
